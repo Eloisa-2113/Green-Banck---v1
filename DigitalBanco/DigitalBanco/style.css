@@ -1,0 +1,83 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+
+ }
+
+ body {
+    
+background-color: rgba(194, 219, 188, 0.822);
+color: rgb(7, 14, 12);
+font-family: serif;
+display: flex;
+justify-content: center;
+padding: 60px 20px;
+
+
+ }
+ .container{
+   background-color:rgba(220, 255, 209, 0.938);
+   width: 100%;
+   max-width: 600px;
+   padding: 30px;
+   box-shadow: 0 10px 20px;
+   border-radius: 20px;
+   border: 1px solid color;
+ }
+ header{
+    font-size: 28px;
+    letter-spacing: -1px;
+    background: linear-gradient(90deg, #c6eedb,  rgb(13, 134, 60));
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-left: 4px solid #c6eedb;
+    padding-left: 10px;
+}
+h2{
+    margin-bottom: 20px;
+}
+table{
+  
+  width: 100%;
+  border-collapse: center;
+  
+ 
+}
+th{
+   color: rgb(69, 83, 71);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #042408;
+}
+
+  td{
+    
+    padding: 8px 0;
+    font-size: 15px;
+    border-bottom: 1px solid #0000004f;
+
+
+  }
+  tbody tr{
+    transition: 0.2s;
+
+  }
+  tbody tr:hover{
+    cursor:pointer;
+    background-color: rgba(109, 184, 168, 0.877);
+    color: aliceblue;
+  }
+  .negativo {
+    color: #b31313;
+    font-weight: 500;
+    text-shadow: 0 0 10px;
+}
+
+.valor-positivo{
+    color: #0c9254;
+    font-weight: 500;
+}
+
+
